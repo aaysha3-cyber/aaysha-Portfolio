@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio of Aaysha Agarwal, a B.Tech student and Web Developer specializing in HTML, CSS, Python, and Java." />
+    <meta name="keywords" content="Aaysha Agarwal, Portfolio, Web Developer, B.Tech, Python, Java, HTML, CSS" />
+    <meta name="author" content="Aaysha Agarwal" />
+    <title>Aaysha Agarwal | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Ambient Background Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Aaysha<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <!-- Desktop Navigation -->
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-cta">
+                <a href="#contact" class="btn-secondary">Let's Talk</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content reveal">
+                <div class="badge-container">
+                    <span class="welcome-badge">Welcome to my space</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I am <span class="gradient-text">Aaysha Agarwal</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    I'm a <span id="typed-text"></span><span class="typed-cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    A B.Tech Student & Web Developer passionate about building visually stunning, modern, and user-friendly web applications. Crafting interfaces that look premium and function flawlessly.
+                </p>
+                
+                <div class="cta-group">
+                    <a href="#about" class="btn-primary">About Me <i data-lucide="user"></i></a>
+                    <a href="#skills" class="btn-secondary">My Skills <i data-lucide="cpu"></i></a>
+                    <a href="#projects" class="btn-outline">View Projects <i data-lucide="layout"></i></a>
+                    <a href="#contact" class="btn-outline">Get in Touch <i data-lucide="send"></i></a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/aaysha3-cyber" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+                    <a href="https://www.linkedin.com/in/aaysha-agarwal-82b0a72a9/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="mailto:aaysha2103@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container reveal">
+                <div class="image-wrapper">
+                    <img src="images/profile.png" alt="Aaysha Agarwal Portrait">
+                    <div class="glowing-border"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Who I Am</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-info">
+                    <p>
+                        I am currently pursuing my <strong>B.Tech degree</strong>, driven by a deep fascination for technology and web engineering. I enjoy solving complex problems, translating creative ideas into responsive code, and designing interfaces that impress at first glance.
+                    </p>
+                    <p>
+                        My journey involves constantly learning new frameworks, working on logical backends in Python and Java, and refining my frontend skills. I believe in writing readable, efficient code and maintaining high standards in design aesthetics.
+                    </p>
+                    
+                    <div class="education-cards">
+                        <div class="edu-card">
+                            <div class="edu-icon"><i data-lucide="graduation-cap"></i></div>
+                            <div class="edu-details">
+                                <h3>B.Tech Student</h3>
+                                <p>Specializing in Computer Science / Technology fields</p>
+                            </div>
+                        </div>
+                        <div class="edu-card">
+                            <div class="edu-icon"><i data-lucide="code"></i></div>
+                            <div class="edu-details">
+                                <h3>Web Development</h3>
+                                <p>Self-taught developer creating modern web interfaces</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>HTML & CSS</h3>
+                        <p>Semantic structuring, flexbox, grids, and premium micro-interactions.</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Python</h3>
+                        <p>Writing backend logic, clean scripts, and data manipulation.</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Java</h3>
+                        <p>Object-Oriented Programming (OOP) architectures and logic.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">My Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-pill">
+                            <i data-lucide="html5" class="skill-icon"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-pill">
+                            <i data-lucide="code" class="skill-icon"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-pill">
+                            <i data-lucide="braces" class="skill-icon"></i>
+                            <span>JavaScript (ES6+)</span>
+                        </div>
+                        <div class="skill-pill">
+                            <i data-lucide="palette" class="skill-icon"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Programming & Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-pill">
+                            <i data-lucide="terminal" class="skill-icon"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-pill">
+                            <i data-lucide="cpu" class="skill-icon"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-pill">
+                            <i data-lucide="database" class="skill-icon"></i>
+                            <span>SQL Databases</span>
+                        </div>
+                        <div class="skill-pill">
+                            <i data-lucide="git-branch" class="skill-icon"></i>
+                            <span>Git & GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">Recent Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <i data-lucide="layout" class="media-placeholder-icon"></i>
+                        <div class="media-overlay">
+                            <a href="https://github.com/aaysha3-cyber" target="_blank" rel="noopener noreferrer" class="media-btn"><i data-lucide="github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Web Development</span>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A fully responsive and highly interactive portfolio website built with HTML5, vanilla CSS3, and JavaScript, featuring beautiful smooth scrolling, active section highlights, scroll-reveal animations, and dynamic contact validations.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <i data-lucide="shield-alert" class="media-placeholder-icon"></i>
+                        <div class="media-overlay">
+                            <a href="https://github.com/aaysha3-cyber" target="_blank" rel="noopener noreferrer" class="media-btn"><i data-lucide="github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">AI & Cybersecurity</span>
+                        <h3>Media Manipulation Detection System</h3>
+                        <p>An advanced digital forensics application engineered to analyze and detect splicing, editing, synthetic voice cloning, and deepfakes across multi-modal media including images, audios, and videos using custom neural networks.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                            <span>Librosa</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h3>Let's collaborate on your next big idea!</h3>
+                    <p>Whether you'd like to discuss a project, query my work, or just say hello, drop me a message and I'll get back to you as soon as possible.</p>
+                    
+                    <div class="contact-info-list">
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="mail"></i></div>
+                            <div class="info-text">
+                                <span>Email Me</span>
+                                <a href="mailto:aaysha2103@gmail.com">aaysha2103@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                            <div class="info-text">
+                                <span>Location</span>
+                                <p>India</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="linkedin"></i></div>
+                            <div class="info-text">
+                                <span>LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/aaysha-agarwal-82b0a72a9/" target="_blank" rel="noopener noreferrer">Aaysha Agarwal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="user" class="input-icon"></i>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required />
+                            </div>
+                            <span class="error-message" id="name-error">Name is required</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <div class="input-wrapper">
+                                <i data-lucide="mail" class="input-icon"></i>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                            </div>
+                            <span class="error-message" id="email-error">Please enter a valid email</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <div class="input-wrapper">
+                                <textarea id="message" name="message" rows="5" placeholder="Hi Aaysha, let's work together on..." required></textarea>
+                            </div>
+                            <span class="error-message" id="message-error">Message content cannot be empty</span>
+                        </div>
+                        
+                        <button type="submit" id="submitBtn" class="btn-primary w-full">
+                            Send Message <i data-lucide="send"></i>
+                        </button>
+                    </form>
+                    
+                    <!-- Success message card -->
+                    <div id="formSuccess" class="form-success-card hidden">
+                        <div class="success-icon"><i data-lucide="check-circle-2"></i></div>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for reaching out, John. I will respond to your email shortly.</p>
+                        <button id="resetFormBtn" class="btn-outline">Send another message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Aaysha Agarwal. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/aaysha3-cyber" target="_blank" rel="noopener noreferrer"><i data-lucide="github"></i></a>
+                <a href="https://www.linkedin.com/in/aaysha-agarwal-82b0a72a9/" target="_blank" rel="noopener noreferrer"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:aaysha2103@gmail.com"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
